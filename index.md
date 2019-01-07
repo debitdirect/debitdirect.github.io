@@ -13,4 +13,4 @@ Abc
 | Max. 250 creditors | Unlimited creditors | Unlimited creditors |
 |   |   |   |
 | DKK 399/mth | DKK 1.249/mth | DKK 2.999/mth |
-|   |   | (Sign up)[https://debitdirect.typeform.com/to/R5DlXq]  |
+|   |   | [Sign up](https://debitdirect.typeform.com/to/R5DlXq)  |
