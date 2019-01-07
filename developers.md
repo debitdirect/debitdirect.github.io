@@ -28,8 +28,8 @@ All requests and responses are JSON-formatted and UTF-8 encoded. An Accept heade
 
 A Content-Type and Content-Length header must be given when sending data to the API (using POST and PUT endpoints), for example:
 
-`Content-Type: application/json
-Content-Length: 104`
+`Content-Type: application/json`
+`Content-Length: 104`
 
 For the Accept and Content-Type headers, you may give either the standard JSON MIME type (application/json), or the JSON-API variant (application/vnd.api+json).
 
@@ -38,9 +38,7 @@ You will receive an error if you attempt to make a POST/PUT request without one 
 In the case of a missing Content-Length header, you will receive an Error 411 (Length Required) error message. Although, the majority of HTTP clients should send the header by default.
 
 ### Time zones / dates
-All dates are formatted as ISO8601 with timezone information. For API calls that allow for a timestamp to be specified, we use that exact timestamp. These timestamps look something like 2014-02-27T15:05:06.123Z.
-
-For endpoints that require dates, we expect a date string of the format YYYY-MM-DD, where an example would look like 2014-02-27.
+All date/time are formatted as ISO8601 with timezone information. For API calls that allow for a date/time to be specified, we use that exact date/time. These date/times look something like 2018-06-22T11:21:43.123Z.
 
 ### Response Codes
 DebitDirect return the following response codes:
@@ -55,4 +53,6 @@ DebitDirect return the following response codes:
 | 404 | Not Found. The requested resource was not found or the authenticated user cannot access the resource. The response body will explain which resource was not found. |
 | 500 | Internal Server Error. The server encountered an error while processing your request and failed. DebitDirect will be alerted on this issue. |
 
-### Webhooks
+## Core Resources
+
+## Webhooks
