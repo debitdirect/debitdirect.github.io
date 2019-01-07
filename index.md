@@ -4,7 +4,7 @@ We provide a RESTful service enabling easy integration with direct debit service
 
 ### Introduction
 
-Abc
+Abc. Continue to our [Getting Started Guide](https://debitdirect.github.io/getting-started).
 
 ### Pricing
 We offer two subscriptions for merchants based on number of creditors (customers). If you are a service provider, managing multiple merchants, we offer one subscription. Any subscription is provided with an initial trial period of 30 days. Please sign up below.
